@@ -58,7 +58,7 @@
     vertical-align: top;
 }
 
-.myUploadsTable .table .thead .tr .fileName, .myUploadsTable .table .tbody .tr .fileName {
+.myUploadsTable .table .thead tr .fileName, .myUploadsTable .table .tbody tr .fileName {
     /* set left and right border */
     border-left: 2px solid black;
     border-right: 2px solid black;
@@ -68,7 +68,7 @@
     text-align: center;
 }
 
-.myUploadsTable .table .thead .tr .action, .myUploadsTable .table .tbody .tr .action {
+.myUploadsTable .table .thead tr .action, .myUploadsTable .table .tbody tr .action {
     /* right border */
     border-right: 2px solid black;
     /* text align to center */
@@ -77,19 +77,19 @@
     width: 20vw;
 }
 
-.myUploadsTable .table .tbody .tr .action .editLink, .myUploadsTable .table .tbody .tr .action .deleteLink, .myUploadsTable .table .tbody tr .action .shareLink  {
+.myUploadsTable .table .tbody tr .action .editLink, .myUploadsTable .table .tbody tr .action .deleteLink, .myUploadsTable .table .tbody tr .action .shareLink  {
     /* set default decoration */
     text-decoration: none;
     color: black
 }
 
-.myUploadsTable .table .tbody .tr .action .editLink:hover {
+.myUploadsTable .table .tbody tr .action .editLink:hover {
     /* set hover effect */
     color: #20c997;
     text-decoration: underline;
 }
 
-.myUploadsTable .table .tbody .tr .action .deleteLink:hover {
+.myUploadsTable .table .tbody tr .action .deleteLink:hover {
     /* set hover effect */
     color: #DC3545;
     text-decoration: underline;
@@ -101,7 +101,7 @@
     text-decoration: underline;
 }
 
-.myUploadsTable .table .tbody .tr .action .modal .modal-dialog .modal-content .modal-header .closeBtn {
+.myUploadsTable .table .tbody tr .action .modal .modal-dialog .modal-content .modal-header .closeBtn {
     /* set border */
     border: 2px solid black;
 }
@@ -149,7 +149,7 @@
     text-align: center;
 }
 
-.sharedUploadsTable .table .thead .tr .sharedBy, .sharedUploadsTable .table .tbody .tr .sharedBy {
+.sharedUploadsTable .table .thead tr .sharedBy, .sharedUploadsTable .table .tbody tr .sharedBy {
     /* ***column 3*** */
     /* right border */
     border-right: 2px solid black;
